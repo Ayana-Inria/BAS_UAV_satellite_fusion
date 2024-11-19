@@ -5,8 +5,10 @@
 Probabilistic Fusion Framework Based on Fully Convolutional Networks and Graphical Models for Burnt Area Detection from Multiresolution Satellite and UAV Imagery
 
 ![screenshot](arch_1.PNG)
+(a) Probabilistic decision fusion (DF-FCN)
 
 ![screenshot](arch_2.PNG)
+(b) Multiresolution fusion through hierarchical probabilistic graphical model (PGF-FCN)
 
 This repository contains the code related to the paper:  
 
