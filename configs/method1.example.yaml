@@ -1,0 +1,45 @@
+inputs:
+  sentinel2:
+    source: rf
+    image: data/sentinel2_image.npy
+    train_labels: data/sentinel2_labels.npy
+    n_estimators: 100
+    random_state: 0
+    n_jobs: -1
+    class_order: [0, 1]
+    save_model: outputs/rf_sentinel2.pkl
+    save_posterior: outputs/posterior_sentinel2.npy
+
+  drone:
+    source: unet
+    image: data/drone_image.npy
+    train_labels: data/drone_labels.npy
+    n_channels: 3
+    n_classes: 2
+    variant: unet
+    epochs: 20
+    patch_size: [480, 480]
+    samples_per_epoch: 1000
+    train_batch_size: 4
+    learning_rate: 0.001
+    window_size: [480, 480]
+    stride: 240
+    infer_batch_size: 1
+    input_scale: 255
+    save_checkpoint: outputs/unet_method1.pt
+    save_posterior: outputs/posterior_drone_2cm.npy
+
+output:
+  labels: outputs/method1_labels.png
+  color: false
+
+prior_drone: [0.5, 0.5]
+conditional_probability:
+  epsilon_1: 0.01
+  epsilon_2: 0.01
+  alpha: 0.5
+
+window_size: [480, 480]
+stride: 240
+batch_size: 1
+sentinel_scale: 480

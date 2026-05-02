@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fusion-s2-drone"
+version = "0.2.0"
+description = "Sentinel-2 and drone posterior fusion with RF and U-Net models"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pillow",
+  "pyyaml",
+  "scikit-learn",
+  "torch",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+include = ["fusion_s2_drone*"]
