@@ -1,8 +1,6 @@
 # BAS_UAV_satellite_fusion
 
-## Stay tuned for updates (and code release)!
-
-Probabilistic Fusion Framework Based on Fully Convolutional Networks and Graphical Models for Burnt Area Detection from Multiresolution Satellite and UAV Imagery
+Probabilistic Fusion Framework Based on Fully Convolutional Networks and Graphical Models for Burned Area Detection from Multiresolution Satellite and UAV Imagery
 
 ![screenshot](arch_1.PNG)
 (a) Probabilistic decision fusion (DF-FCN)
