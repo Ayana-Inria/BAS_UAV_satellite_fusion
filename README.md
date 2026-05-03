@@ -105,7 +105,8 @@ If you use our code, please cite the following paper:
   year={2026},
   volume={64},
   pages={1-19},
-  doi={10.1109/TGRS.2026.3676291}}```
+  doi={10.1109/TGRS.2026.3676291}}
+```
 
 This work was conducted during my joint PhD at [INRIA](https://team.inria.fr/ayana/team-members/), d'Université Côte d'Azur and at the [University of Genoa](http://phd-stiet.diten.unige.it/). 
 The UAV drone images were acquired by INRAE (Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement), RECOVER, Provence-Alpes-Côte d'Azur research centre, Aix-en-Provence.
