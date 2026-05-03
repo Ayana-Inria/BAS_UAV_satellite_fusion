@@ -98,14 +98,14 @@ The code is released under the GPL-3.0-only license. See `LICENSE.md` for more d
 
 If you use our code, please cite the following paper:
 
-`@ARTICLE{11449307,
+```@ARTICLE{11449307,
   author={Pastorino, Martina and Moser, Gabriele and Guerra, Fabien and Serpico, Sebastiano B. and Zerubia, Josiane},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Probabilistic Fusion Framework Based on Fully Convolutional Networks and Graphical Models for Burned Area Detection From Multiresolution Satellite and UAV Imagery}, 
   year={2026},
   volume={64},
   pages={1-19},
-  doi={10.1109/TGRS.2026.3676291}}'
+  doi={10.1109/TGRS.2026.3676291}}```
 
 This work was conducted during my joint PhD at [INRIA](https://team.inria.fr/ayana/team-members/), d'Université Côte d'Azur and at the [University of Genoa](http://phd-stiet.diten.unige.it/). 
 The UAV drone images were acquired by INRAE (Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement), RECOVER, Provence-Alpes-Côte d'Azur research centre, Aix-en-Provence.
